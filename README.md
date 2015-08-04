@@ -18,6 +18,7 @@ Then, with cmake generate makefiles and compile the executable.
 cmake ../
 make release
 ```
+
 Finally, install the executable in the bin folder.
 
 ```shell

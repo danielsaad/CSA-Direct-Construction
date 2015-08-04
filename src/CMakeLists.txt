@@ -1,0 +1,6 @@
+add_executable(csa main.cpp suffixSorting.cpp)
+add_executable(misc misc.cpp suffixSorting.cpp)
+target_link_libraries(csa sdsl divsufsort divsufsort64)
+target_link_libraries(misc sdsl divsufsort divsufsort64)
+install(TARGETS csa DESTINATION ${CMAKE_SOURCE_DIR}/bin)
+install(TARGETS misc DESTINATION ${CMAKE_SOURCE_DIR}/bin)

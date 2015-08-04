@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Códigos/CSA-Direct-Construction/src/misc.cpp
+iostream
+-
+suffixSorting.hpp
+/home/daniel/Códigos/CSA-Direct-Construction/src/suffixSorting.hpp
+
+/home/daniel/Códigos/CSA-Direct-Construction/src/suffixSorting.hpp
+cstdint
+-
+

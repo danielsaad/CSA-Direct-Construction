@@ -1,0 +1,1 @@
+/usr/bin/g++   -g3 -gdwarf-2 -Wall -std=c++11    CMakeFiles/teste.dir/teste.cpp.o  -o teste  -L/home/daniel/Códigos/CSA-Direct-Construction/lib -rdynamic -lsdsl -ldivsufsort -ldivsufsort64 -Wl,-rpath,/home/daniel/Códigos/CSA-Direct-Construction/lib: 

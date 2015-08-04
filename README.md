@@ -6,23 +6,25 @@ Compressed Suffix Array construction using plug-and-play succinct data structure
 First, execute the scrit from sdsl to install the library.
 
 ```shell
-$ cd external/sdsl-lite-master
-$ ./install.sh ../../
+cd external/sdsl-lite-master
+./install.sh ../../
 ```
-Next, go to build folder
-
-$ cd build
-
+Next, go to thebuild folder.
+```shell
+$cd build
+```
 Then, with cmake generate makefiles and compile the executable.
 
-$ cmake ../
+```shell
+$cmake ../
 
-$ make release
-
+$make release
+```
 Finally, install the executable in the bin folder.
 
-$ make install
-
+```shell
+$make install
+```
 
 ##Execution
 

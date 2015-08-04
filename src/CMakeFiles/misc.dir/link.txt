@@ -1,1 +1,0 @@
-/usr/bin/g++   -O3 -DNDEBUG -Wall -std=c++11    CMakeFiles/misc.dir/misc.cpp.o CMakeFiles/misc.dir/suffixSorting.cpp.o  -o misc  -L/home/daniel/Códigos/CSA-Direct-Construction/lib -rdynamic -lsdsl -ldivsufsort -ldivsufsort64 -Wl,-rpath,/home/daniel/Códigos/CSA-Direct-Construction/lib: 
